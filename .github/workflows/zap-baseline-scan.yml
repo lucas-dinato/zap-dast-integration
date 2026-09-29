@@ -26,7 +26,7 @@ jobs:
         uses: zaproxy/action-baseline@v0.14.0
         with:
           # Alvo de teste
-          target: 'http://testphp.vulnweb.com/'
+          target: 'https://juice-shop.herokuapp.com'
 
       - name: Upload ZAP Report
         uses: actions/upload-artifact@v4
